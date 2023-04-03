@@ -43,11 +43,11 @@ class HomeController extends GetxController {
 
   void getTopFiveCities() {
     List<String> cities = [
-      'zagazig',
-      'cairo',
-      'alexandria',
-      'ismailia',
-      'fayoum'
+      'Berlin',
+      'Cairo',
+      'Alexandria',
+      'London',
+      'Paris'
     ];
     cities.forEach((c) {
       WeatherService(city: '$c').getCurrentWeatherData(onSuccess: (data) {

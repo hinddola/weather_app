@@ -36,7 +36,7 @@ class MyList extends GetView<HomeController> {
                 child: Column(
                   mainAxisAlignment:
                   MainAxisAlignment.center,
-                  children: <Widget>[
+                  children:[
                     Text(
                       (data != null)
                           ? '${data.name}'
